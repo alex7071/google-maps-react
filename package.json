@@ -31,7 +31,6 @@
     "test-watch": "npm run testonly -- --watch --watch-extensions js"
   },
   "devDependencies": {
-    "@types/googlemaps": "^3",
     "@types/react": "^15.0.0",
     "autoprefixer": "^6.3.6",
     "babel-cli": "^6.26.0",
@@ -82,5 +81,8 @@
     "react": "~0.14.8 || ^15.0.0 || ^16.0.0",
     "react-dom": "~0.14.8 || ^15.0.0 || ^16.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/googlemaps": "^3.39.7"
+  }
 }
